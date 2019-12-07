@@ -2,11 +2,14 @@
 
 ## How do I install these formulae?
 
-Or `brew tap mishamyrt/mysh` and then `brew install mysh`.
+```sh
+brew tap mishamyrt/mysh
+brew install mysh
+```
 
 Or install via URL (which will not receive updates):
 
-```
+```sh
 brew install https://raw.githubusercontent.com/mishamyrt/homebrew-mysh/master/Formula/mysh.rb
 ```
 
