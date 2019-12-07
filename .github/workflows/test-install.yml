@@ -1,0 +1,15 @@
+name: Install Mysh from tap.
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  install_from_tap:
+    runs-on: macos-latest
+    steps:
+    - name: Add Mysh tap
+      run: brew tap mishamyrt/mysh
+    - name: Install Mysh
+      run: brew install mysh
