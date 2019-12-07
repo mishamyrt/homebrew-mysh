@@ -11,4 +11,8 @@ class Mysh < Formula
       bash_completion.install "mysh.bash" => "mysh"
       fish_completion.install "mysh.fish" => "mysh"
     end
+
+    test do
+        assert_match "improving SSH user experience", shell_output("#{bin}/mysh help")
+    end
 end
