@@ -17,4 +17,4 @@ brew install https://raw.githubusercontent.com/mishamyrt/homebrew-mysh/master/Fo
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
 
 [actions-badge]:  https://github.com/mishamyrt/homebrew-mysh/workflows/Tap%20install/badge.svg
-[actions]:        https://github.com/mishamyrt/homebrew-mysh/actions?query=workflow%3A%Tap%20install%22
+[actions]:        https://github.com/mishamyrt/homebrew-mysh/actions?query=workflow%3A%22Tap+install%22
