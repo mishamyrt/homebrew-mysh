@@ -1,0 +1,18 @@
+class Mysh < Formula
+    desc "A tool for improving SSH user experience"
+    homepage "https://github.com/mishamyrt/mysh/"
+    url "${FILE_URL}"
+    version "${VERSION}"
+    sha256 "${FILE_SHA256}"
+  
+    def install
+      bin.install "mysh"
+      bin.install "core_mysh"
+      bash_completion.install "mysh.bash" => "mysh"
+      fish_completion.install "mysh.fish" => "mysh"
+    end
+
+    test do
+        assert_match "improving SSH user experience", shell_output("#{bin}/mysh help")
+    end
+end
