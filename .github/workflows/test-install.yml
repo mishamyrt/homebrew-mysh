@@ -1,4 +1,4 @@
-name: Install Mysh from tap.
+name: test
 
 on:
   push:

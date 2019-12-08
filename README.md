@@ -1,4 +1,4 @@
-# Mysh
+# Mysh [![Test status][actions-badge]][actions]
 
 ## How do I install these formulae?
 
@@ -15,3 +15,6 @@ brew install https://raw.githubusercontent.com/mishamyrt/homebrew-mysh/master/Fo
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+[actions-badge]:  https://github.com/mishamyrt/homebrew-mysh/workflows/test/badge.svg
+[actions]:        https://github.com/mishamyrt/homebrew-mysh/actions?query=workflow%3A%test%22
